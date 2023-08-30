@@ -164,6 +164,7 @@
 #menu a:hover {
   color: #58e3d5;
   transform: scaleX(1);
+  padding-top: 25px;
 }
 
 .logo {
