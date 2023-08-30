@@ -8,9 +8,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $subject = "New Contact Form Submission";
   $headers = "From: $email";
 
-  mail($to, $subject, $message, $headers);
-
-  // Redirect after sending the email
-  header("Location: thank-you.html");
-  exit();
+  if (mail($to, $subject, $message, $headers)) {
+    header("Location: thank-you.html");
+    exit();
+  } else {
+    echo "Error sending email. Please try again later.";
+  }
 }
+?>
