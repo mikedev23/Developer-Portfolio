@@ -48,6 +48,14 @@ document.addEventListener('DOMContentLoaded', function () {
     icon.classList.remove('focus')
   })
 
+  // Function to scroll to the top of the page
+  function scrollToTop () {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  // Attach the scrollToTop function to the form's onsubmit event
+  document.querySelector('form').onsubmit = scrollToTop
+
   // Scroll Reveal
   const sr = ScrollReveal({
     duration: 1000, // Duration of animation in milliseconds
