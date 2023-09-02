@@ -3,13 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- TAILWIND FRAMEWORK -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
-    <!-- WEBSITE ICO -->
     <link rel="shortcut icon" href="public/programming.png" type="image/x-icon">
-    <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Barlow:wght@400;700&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <title>Mikedev23 Portfolio</title>
     <link rel="stylesheet" href="styles.css">
@@ -18,21 +14,16 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css">
-    <!-- SCROLL REVEAL -->
     <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
-    <!-- PARTICLES ANIMATION -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   </head>
   <body class="bg-gray-900 text-white">
-    <!-- **** NAV BAR **** -->
     <nav class="bg-gray-900 p-4 sticky navbar">
       <div class="flex justify-between items-center px-1">
         <div class="flex items-center space-x-2">
           <div class="text-gray-200 text-xl name-font mt-1">
-            <i class="fa-brands fa-dev text-green-400"></i>
-            Michael Haji
-            <span class="tagline">
-              Frontend Developer
+            <i class="fa-brands fa-dev text-green-400"></i>Michael Haji
+            <span class="tagline">Frontend Developer
               <i class="fa-brands fa-connectdevelop fa-spin fa-xl text-grey-600"></i>
             </span>
           </div>
@@ -40,19 +31,13 @@
         <div class="hidden md:flex items-center space-x-4 mx-2">
           <ul id="menu" class="md:flex space-x-6 nav-font mt-1">
             <li>
-              <a href="#projects" class="hover:text-green-300 hover:bg-gray-800 py-5 px-5 transition-colors duration-300">
-                Projects
-              </a>
+              <a href="#projects" class="hover:text-green-300 hover:bg-gray-800 py-5 px-5 transition-colors duration-300">Projects</a>
             </li>
             <li>
-              <a href="#skills" class="hover:text-green-300 hover:bg-gray-800 py-5 px-5 transition-colors duration-300">
-                Skills
-              </a>
+              <a href="#skills" class="hover:text-green-300 hover:bg-gray-800 py-5 px-5 transition-colors duration-300">Skills</a>
             </li>
             <li>
-              <a href="#contact" class="hover:text-green-300 hover:bg-gray-800 py-5 px-5 transition-colors duration-300">
-                Contact
-              </a>
+              <a href="#contact" class="hover:text-green-300 hover:bg-gray-800 py-5 px-5 transition-colors duration-300">Contact</a>
             </li>
           </ul>
         </div>
@@ -62,35 +47,25 @@
           </button>
           <ul id="dropdown-menu" class="dropdown space-y-2 pt-4">
             <li>
-              <a href="#projects" class="hover:text-green-300 transition-colors duration-300">
-                Projects
-              </a>
+              <a href="#projects" class="hover:text-green-300 transition-colors duration-300">Projects</a>
             </li>
             <li>
-              <a href="#skills" class="hover:text-green-300 transition-colors duration-300">
-                Skills
-              </a>
+              <a href="#skills" class="hover:text-green-300 transition-colors duration-300">Skills</a>
             </li>
             <li>
-              <a href="#contact" class="hover:text-green-300 transition-colors duration-300">
-                Contact
-              </a>
+              <a href="#contact" class="hover:text-green-300 transition-colors duration-300">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- **** Hero Section **** -->
     <div id="particles-container"></div>
-    <!-- **** ABOUT ME **** -->
     <section class="bg-gray-900 py-12">
       <div class="container mx-auto flex items-center justify-center">
         <div class="flex flex-col md:flex-row items-center about">
           <img src="public/profile-img.jpg" alt="Profile Image" class="w-64 h-64 object-cover rounded-full mb-4 md:mb-0 profile-border">
           <div class="md:ml-8 text-center">
-            <h2 class="text-3xl font-semibold mb-4 profile-text sm:mt-5">
-              About Me
-            </h2>
+            <h2 class="text-3xl font-semibold mb-4 profile-text sm:mt-5">About Me</h2>
             <ul class="mb-4 profile-paragraph">
               <li>Frontend developer passionate about learning and creating.</li>
               <li>Seeking opportunities to apply skills to real-world projects.</li>
@@ -105,14 +80,10 @@
         </div>
       </div>
     </section>
-    <!-- **** PROJECTS Section **** -->
     <section id="projects" class="bg-gray-800">
       <div class="container mx-auto">
-        <h2 class="text-3xl font-semibold mb-12 mt-10 text-center text-gray-300">
-          Projects
-        </h2>
+        <h2 class="text-3xl font-semibold mb-12 mt-10 text-center text-gray-300">Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- Project 1 -->
           <div class="project bg-gray-900 rounded-lg p-6 text-gray-300 mx-7 my-7 card">
             <div class="project-image mb-4">
               <div
@@ -126,24 +97,15 @@
               </div>
             </div>
             <h2 class="project-title font-bold mb-2">Password Generator</h2>
-            <p class="project-description mb-4">
-              Create complex passwords with the touch of a button.
-            </p>
+            <p class="project-description mb-4">Create complex passwords with the touch of a button.</p>
             <p class="technologies mb-4">
-              <strong>Technologies:</strong>
-              React, Node.js, HTML, JavaScript,
-              CSS
+              <strong>Technologies:</strong>React, Node.js, HTML, JavaScript, CSS
             </p>
             <div class="project-buttons">
-              <a href="https://github.com/mikedev23/Password-Generator" target="_blank" class="source-code-button bg-green-600">
-                Source Code
-              </a>
-              <a href="https://mikedev23-password-generator.netlify.app/" target="_blank" class="see-live-button bg-green-600">
-                See Live
-              </a>
+              <a href="https://github.com/mikedev23/Password-Generator" target="_blank" class="source-code-button bg-green-600">Source Code</a>
+              <a href="https://mikedev23-password-generator.netlify.app/" target="_blank" class="see-live-button bg-green-600">See Live</a>
             </div>
           </div>
-          <!-- Project 2 -->
           <div class="project bg-gray-900 rounded-lg p-6 text-gray-300 mx-7 my-7 card">
             <div class="project-image mb-4">
               <div
@@ -157,24 +119,15 @@
               </div>
             </div>
             <h2 class="project-title font-bold mb-2">Retro Reels</h2>
-            <p class="project-description mb-4">
-              Explore a handpicked collection of timeless movies.
-            </p>
+            <p class="project-description mb-4">Explore a handpicked collection of timeless movies.</p>
             <p class="technologies mb-4">
-              <strong>Technologies:</strong>
-              React, Node.js, HTML, JavaScript,
-              CSS
+              <strong>Technologies:</strong>React, Node.js, HTML, JavaScript, CSS
             </p>
             <div class="project-buttons">
-              <a href="https://github.com/mikedev23/Retro-Reels" target="_blank" class="source-code-button bg-green-600">
-                Source Code
-              </a>
-              <a href="https://mikedev23.github.io/Retro-Reels/" target="_blank" class="see-live-button bg-green-600">
-                See Live
-              </a>
+              <a href="https://github.com/mikedev23/Retro-Reels" target="_blank" class="source-code-button bg-green-600">Source Code</a>
+              <a href="https://mikedev23.github.io/Retro-Reels/" target="_blank" class="see-live-button bg-green-600">See Live</a>
             </div>
           </div>
-          <!-- Project 3 -->
           <div class="project bg-gray-900 rounded-lg p-6 text-gray-300 mx-7 my-7 card">
             <div class="project-image mb-4">
               <div
@@ -188,24 +141,15 @@
               </div>
             </div>
             <h2 class="project-title font-bold mb-2">Organ Donation</h2>
-            <p class="project-description mb-4">
-              Raise awareness and facilitate organ donation through an
-              interactive platform.
-            </p>
+            <p class="project-description mb-4">Raise awareness and facilitate organ donation through an interactive platform.</p>
             <p class="technologies mb-4">
-              <strong>Technologies:</strong>
-              HTML, JavaScript, CSS
+              <strong>Technologies:</strong>HTML, JavaScript, CSS
             </p>
             <div class="project-buttons">
-              <a href="https://github.com/mikedev23/Organ-Donation" target="_blank" class="source-code-button bg-green-600">
-                Source Code
-              </a>
-              <a href="https://mikedev23-organ-donation.netlify.app/" target="_blank" class="see-live-button bg-green-600">
-                See Live
-              </a>
+              <a href="https://github.com/mikedev23/Organ-Donation" target="_blank" class="source-code-button bg-green-600">Source Code</a>
+              <a href="https://mikedev23-organ-donation.netlify.app/" target="_blank" class="see-live-button bg-green-600">See Live</a>
             </div>
           </div>
-          <!-- Project 4 -->
           <div class="project bg-gray-900 rounded-lg p-6 text-gray-300 mx-7 my-7 card">
             <div class="project-image mb-4">
               <div
@@ -219,24 +163,15 @@
               </div>
             </div>
             <h2 class="project-title font-bold mb-2">King of Pop Tribute</h2>
-            <p class="project-description mb-4">
-              Pay homage to the legendary King of Pop with an engaging
-              multimedia tribute.
-            </p>
+            <p class="project-description mb-4">Pay homage to the legendary King of Pop with an engaging multimedia tribute.</p>
             <p class="technologies mb-4">
-              <strong>Technologies:</strong>
-              HTML, JavaScript, CSS
+              <strong>Technologies:</strong>HTML, JavaScript, CSS
             </p>
             <div class="project-buttons">
-              <a href="https://github.com/mikedev23/King-Of-Pop-Tribute" target="_blank" class="source-code-button bg-green-600">
-                Source Code
-              </a>
-              <a href="https://mikedev23-king-of-pop-tribute.netlify.app/" target="_blank" class="see-live-button bg-green-600">
-                See Live
-              </a>
+              <a href="https://github.com/mikedev23/King-Of-Pop-Tribute" target="_blank" class="source-code-button bg-green-600">Source Code</a>
+              <a href="https://mikedev23-king-of-pop-tribute.netlify.app/" target="_blank" class="see-live-button bg-green-600">See Live</a>
             </div>
           </div>
-          <!-- Project 5 -->
           <div class="project bg-gray-900 rounded-lg p-6 text-gray-300 mx-7 my-7 card">
             <div class="project-image mb-4">
               <div
@@ -250,23 +185,15 @@
               </div>
             </div>
             <h2 class="project-title font-bold mb-2">Basketball Scoreboard</h2>
-            <p class="project-description mb-4">
-              Dynamic and interactive basketball scoreboard.
-            </p>
+            <p class="project-description mb-4">Dynamic and interactive basketball scoreboard.</p>
             <p class="technologies mb-4">
-              <strong>Technologies:</strong>
-              HTML, JavaScript, CSS
+              <strong>Technologies:</strong>HTML, JavaScript, CSS
             </p>
             <div class="project-buttons">
-              <a href="https://github.com/mikedev23/Basketball-Scoreboard" target="_blank" class="source-code-button bg-green-600">
-                Source Code
-              </a>
-              <a href="https://mikedev23-basketball-scoreboard.netlify.app" target="_blank" class="see-live-button bg-green-600">
-                See Live
-              </a>
+              <a href="https://github.com/mikedev23/Basketball-Scoreboard" target="_blank" class="source-code-button bg-green-600">Source Code</a>
+              <a href="https://mikedev23-basketball-scoreboard.netlify.app" target="_blank" class="see-live-button bg-green-600">See Live</a>
             </div>
           </div>
-          <!-- Project 6 -->
           <div class="project bg-gray-900 rounded-lg p-6 text-gray-300 mx-7 my-7 card">
             <div class="project-image mb-4">
               <div
@@ -280,31 +207,21 @@
               </div>
             </div>
             <h2 class="project-title font-bold mb-2">Bill Tracker</h2>
-            <p class="project-description mb-4">
-              Track your monthly bills easily with this web app.
-            </p>
+            <p class="project-description mb-4">Track your monthly bills easily with this web app.</p>
             <p class="technologies mb-4">
-              <strong>Technologies:</strong>
-              HTML, JavaScript, CSS
+              <strong>Technologies:</strong>HTML, JavaScript, CSS
             </p>
             <div class="project-buttons">
-              <a href="https://github.com/mikedev23/Bill-Tracker" target="_blank" class="source-code-button bg-green-600">
-                Source Code
-              </a>
-              <a href="https://mikedev23-bill-tracker.netlify.app/" target="_blank" class="see-live-button bg-green-600">
-                See Live
-              </a>
+              <a href="https://github.com/mikedev23/Bill-Tracker" target="_blank" class="source-code-button bg-green-600">Source Code</a>
+              <a href="https://mikedev23-bill-tracker.netlify.app/" target="_blank" class="see-live-button bg-green-600">See Live</a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- **** Skills Section **** -->
     <section id="skills" class="bg-gray-900">
       <div class="container mx-auto">
-        <h2 class="text-3xl font-semibold mb-12 mt-10 text-center text-gray-300">
-          Skills
-        </h2>
+        <h2 class="text-3xl font-semibold mb-12 mt-10 text-center text-gray-300">Skills</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div class="skill-badge">
             <i class="fab fa-html5"></i>
@@ -357,26 +274,17 @@
         </div>
       </div>
     </section>
-    <!-- **** CONTACT SECTION **** -->
     <section id="contact" class="bg-gray-800">
-      <h2 class="text-3xl font-semibold mb-12 mt-10 text-center text-gray-300">
-        Contact Me
-      </h2>
+      <h2 class="text-3xl font-semibold mb-12 mt-10 text-center text-gray-300">Contact Me</h2>
       <div class="container mx-auto">
         <div class="grid gap-12 justify-center">
-          <!-- Contact Form Section -->
           <div class="bg-gray-900 rounded-lg p-8 contact">
-            <h2 class="text-3xl font-semibold text-center text-gray-300 mb-5 nav-font">
-              Get in
-              <span class="project-font bold">
-                Touch
+            <h2 class="text-3xl font-semibold text-center text-gray-300 mb-5 nav-font">Get in
+              <span class="project-font bold">Touch
                 <i class="fa-duotone fa-circle-down fa-sm fa-bounce text-green-500"></i>
               </span>
             </h2>
-            <p class="text-lg mb-8 text-gray-300 text-center">
-              Interested in collaborating or just want to say hi? Feel free to
-              reach out to me!
-            </p>
+            <p class="text-lg mb-8 text-gray-300 text-center">Interested in collaborating or just want to say hi? Feel free to reach out to me!</p>
             <form action="process-form.php" method="action" class="space-y-6">
               <div class="mb-4">
                 <div class="relative">
@@ -416,20 +324,16 @@
               </div>
               <div class="flex justify-center">
                 <button type="submit" class="btn btn-primary transition duration-300 mt-4">
-                  <i class="fa-sharp fa-solid fa-check-to-slot"></i>
-                  Submit
+                  <i class="fa-sharp fa-solid fa-check-to-slot"></i>Submit
                 </button>
                 <button type="submit" class="btn btn-secondary transition duration-300 mt-4">
-                  <i class="fas fa-file-alt slow--flip text-lg"></i>
-                  View Resume
+                  <i class="fas fa-file-alt slow--flip text-lg"></i>View Resume
                 </button>
               </div>
             </form>
           </div>
-          <!-- Dev Blogs Section -->
           <div class="bg-gray-900 rounded-lg p-8 text-center contact">
-            <h3 class="text-3xl font-semibold text-gray-300 text-center">
-              Codebreakers Simplified
+            <h3 class="text-3xl font-semibold text-gray-300 text-center">Codebreakers Simplified
               <i class="fa-duotone fa-blog text-green-500 fa-sm"></i>
             </h3>
             <h4>
@@ -438,49 +342,36 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-blue-400 font-bold hover:underline mt-5 text-lg"
-              >
-                Visit my Medium Profile
-              </a>
+              >Visit my Medium Profile</a>
             </h4>
-            <p class="text-sm text-gray-300 mb-12 text-center custom-font">
-              by Mikedev23
-            </p>
+            <p class="text-sm text-gray-300 mb-12 text-center custom-font">by Mikedev23</p>
             <ul class="text-gray-300 lg:space-y-12 lg:text-lg ul-font">
               <li>
                 <span class="bg-indigo-500 text-gray-100 rounded-full p-1">
                   <i class="fab fa-npm"></i>
                 </span>
-                <a href="https://medium.com/@mikedev23/build-test-magic-unleashing-npms-power-78b598552cf4" target="_blank" class="hover:underline hover:text-green-400 ml-3">
-                  Build & Test Magic: Unleashing NPM's Power
-                </a>
+                <a href="https://medium.com/@mikedev23/build-test-magic-unleashing-npms-power-78b598552cf4" target="_blank" class="hover:underline hover:text-green-400 ml-3">Build & Test Magic: Unleashing NPM's Power</a>
               </li>
               <li>
                 <span class="bg-yellow-600 text-gray-100 rounded-full p-1">
                   <i class="fab fa-html5"></i>
                 </span>
-                <a href="https://medium.com/@mikedev23/supercharge-your-website-speed-82de5b67f37e" target="_blank" class="hover:underline hover:text-green-400 ml-3">
-                  Supercharge Your Website Speed
-                </a>
+                <a href="https://medium.com/@mikedev23/supercharge-your-website-speed-82de5b67f37e" target="_blank" class="hover:underline hover:text-green-400 ml-3">Supercharge Your Website Speed</a>
               </li>
               <li>
                 <span class="bg-blue-500 text-gray-100 rounded-full p-1">
                   <i class="fab fa-git-alt"></i>
                 </span>
-                <a href="https://medium.com/@mikedev23/git-it-together-how-to-use-version-control-to-stay-organized-f97c18433e86" target="_blank" class="hover:underline hover:text-green-400 ml-3">
-                  Git It Together: How to Use Version Control to Stay Organized
-                </a>
+                <a href="https://medium.com/@mikedev23/git-it-together-how-to-use-version-control-to-stay-organized-f97c18433e86" target="_blank" class="hover:underline hover:text-green-400 ml-3">Git It Together: How to Use Version Control to Stay Organized</a>
               </li>
               <li>
                 <span class="bg-green-700 text-gray-100 rounded-full p-1">
                   <i class="fas fa-tv"></i>
                 </span>
-                <a href="https://medium.com/@mikedev23/shapeshift-your-website-with-responsive-design-bee7b150e947" target="_blank" class="hover:underline hover:text-green-400 ml-3">
-                  Shapeshift Your Website With Responsive Design
-                </a>
+                <a href="https://medium.com/@mikedev23/shapeshift-your-website-with-responsive-design-bee7b150e947" target="_blank" class="hover:underline hover:text-green-400 ml-3">Shapeshift Your Website With Responsive Design</a>
               </li>
             </ul>
           </div>
-          <!-- VIDEO - HOMETOWN -->
           <div class="contact" style="max-width: 600px; margin: auto; border: 6px ridge #1a202c">
             <video
               controls
@@ -492,14 +383,12 @@
               height="auto"
               id="hometownVideo"
             >
-              <source src="public/hometown.mp4" type="video/mp4">
-              Your browser does not support the video tag.
+              <source src="public/hometown.mp4" type="video/mp4">Your browser does not support the video tag.
             </video>
           </div>
         </div>
       </div>
     </section>
-    <!-- **** Footer Section **** -->
     <footer class="bg-gray-900 text-center py-2">
       <div class="container mx-auto flex flex-wrap justify-center items-center h-full">
         <div class="social-icons flex flex-row items-center space-x-12">
