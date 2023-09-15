@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .project-description,
 .technologies {
   line-height: 1.5;
@@ -17,35 +23,33 @@
 
 .sticky,
 footer {
-  box-shadow: 0 2px 6px rgba(0,0,0,.1);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 }
 
 #particles-container {
   background-color: #1a202c;
-  background-image: url('public//hacker-station-is-located-center-server-with-storage-system_656560-415-transformed.jpeg');
+  background-image: url('public//server-room.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
 }
 
+.profile-paragraph {
+  font-family: Barlow, serif;
+}
+
 .project-title {
   text-align: center;
   color: #4fd1c5;
-  font-family: 'Nunito Sans',serif;
+  font-family: 'Nunito Sans', serif;
   font-size: 20px;
 }
 
 .contact-h2,
 .project-description,
 .technologies {
-  font-family: Barlow,sans-serif;
+  font-family: Barlow, sans-serif;
 }
 
 .project-description {
@@ -64,8 +68,8 @@ footer {
   justify-content: center;
   gap: 15px;
   cursor: pointer;
-  transform: translate3d(0,0,0);
-  transition: background-color .3s,color .3s;
+  transform: translate3d(0, 0, 0);
+  transition: background-color .3s, color .3s;
 }
 
 .see-live-button,
@@ -92,12 +96,12 @@ footer {
 
 .source-code-button:hover {
   background-color: #2f62c0;
-  transform: translate3d(0,2px,0);
+  transform: translate3d(0, 2px, 0);
 }
 
 .see-live-button:hover {
   background-color: #7c35d3;
-  transform: translate3d(0,2px,0);
+  transform: translate3d(0, 2px, 0);
 }
 
 .project-image {
@@ -147,8 +151,8 @@ footer {
 
 .footer-icon:hover {
   transform: scale(1.4);
-  border-top: 0 rgba(0,0,0,.3);
-  transition: transform .3s,box-shadow .3s;
+  border-top: 0 rgba(0, 0, 0, .3);
+  transition: transform .3s, box-shadow .3s;
 }
 
 .scrollbar {
@@ -164,7 +168,7 @@ footer {
 }
 
 .profile-text {
-  font-family: 'Nunito Sans',serif;
+  font-family: 'Nunito Sans', serif;
 }
 
 .sticky {
@@ -208,7 +212,7 @@ textarea {
 }
 
 .custom-font {
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .nav-color {
@@ -226,7 +230,7 @@ textarea {
   color: #fff;
   border: 1px solid #1a1a1a;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
   z-index: 1;
 }
 
@@ -234,7 +238,7 @@ textarea {
 .contact-textarea {
   border: 1px solid #4a5568;
   background-color: #1f2937;
-  transition: border-color .3s,background-color .3s,color .3s;
+  transition: border-color .3s, background-color .3s, color .3s;
 }
 
 .menu-icon {
@@ -246,7 +250,7 @@ textarea {
   padding: 13px 20px;
   color: #fff;
   text-decoration: none;
-  text-shadow: 0 2px 4px rgba(0,0,0,.1);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
 
 .dropdown a:hover {
@@ -255,11 +259,11 @@ textarea {
 }
 
 .nav-font {
-  font-family: 'Nunito Sans',sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .name-font {
-  font-family: 'Nunito Sans',serif;
+  font-family: 'Nunito Sans', serif;
 }
 
 footer {
@@ -286,7 +290,7 @@ footer {
 .contact-input:focus,
 .contact-textarea:focus {
   border: 1px solid #4fd1c5;
-  box-shadow: 0 0 0 3px rgba(79,209,197,.3);
+  box-shadow: 0 0 0 3px rgba(79, 209, 197, .3);
 }
 
 textarea {
@@ -295,7 +299,7 @@ textarea {
 }
 
 textarea:focus {
-  box-shadow: 0 0 0 3px rgba(79,209,197,.3);
+  box-shadow: 0 0 0 3px rgba(79, 209, 197, .3);
 }
 
 .btn {
@@ -304,8 +308,8 @@ textarea:focus {
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
-  transform: translate3d(0,0,0);
-  transition: background-color .3s,color .3s;
+  transform: translate3d(0, 0, 0);
+  transition: background-color .3s, color .3s;
 }
 
 .btn-primary {
@@ -316,7 +320,7 @@ textarea:focus {
 .btn-primary:hover {
   background-color: #2f62c0;
   color: #d1d5db;
-  transform: translate3d(0,2px,0);
+  transform: translate3d(0, 2px, 0);
 }
 
 .btn-secondary {
@@ -328,7 +332,7 @@ textarea:focus {
   background-color: #7c35d3;
   color: #d1d5db;
   margin-left: 10px;
-  transform: translate3d(0,2px,0);
+  transform: translate3d(0, 2px, 0);
 }
 @media (max-width:640px) {
   body {
@@ -370,7 +374,7 @@ textarea:focus {
   }
 
   .grid-cols-1 {
-    grid-template-columns: repeat(1,minmax(0,1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .ul-font {
@@ -391,7 +395,7 @@ textarea:focus {
 }
 @media (min-width:1025px) {
   .grid-cols-1 {
-    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .container {
